@@ -16,6 +16,7 @@ public class JAVA_05_For_Statement {
 		System.out.println(" initialization: Valor inicial do loop");
 		System.out.println(" termination   : Valor final do loop");
 		System.out.println(" increment     : Incremento do loop");
+		System.out.println(" statement(s)  : comandos que seráo executados");
 		System.out.println(" ");
 		System.out.println("Exemplos:");
 		System.out.println("for(int i=1; i<11; i++){");
