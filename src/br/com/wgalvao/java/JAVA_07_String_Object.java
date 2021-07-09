@@ -4,6 +4,7 @@ public class JAVA_07_String_Object {
 
 	public static void main(String[] args) {
 
+		// https://www.w3schools.com/java/java_ref_string.asp
 		System.out.println("The String Object");
 		System.out.println(" ");
 		String emptyText = new String();
@@ -42,7 +43,8 @@ public class JAVA_07_String_Object {
 		booleanResult = text.equals(text1.concat(text2));
 		System.out.println("booleanResult = text.equals(text1.concat(text2));: " + booleanResult);
 		booleanResult = text.equalsIgnoreCase(text1.toLowerCase() + text2.toUpperCase());
-		System.out.println("booleanResult = text.equalsIgnoreCase(text1.toLowerCase() + text2.toUpperCase());: " + booleanResult);
+		System.out.println(
+				"booleanResult = text.equalsIgnoreCase(text1.toLowerCase() + text2.toUpperCase());: " + booleanResult);
 		System.out.println(" ");
 		booleanResult = text.contains(text1);
 		System.out.println("booleanResult = text.contains(text1);: " + booleanResult);

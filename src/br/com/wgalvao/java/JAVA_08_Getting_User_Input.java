@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class JAVA_08_Getting_User_Input {
 
+	// https://www.w3schools.com/java/java_user_input.asp
 	private static Scanner scanner;
 
 	public static void main(String[] args) {
@@ -15,5 +16,5 @@ public class JAVA_08_Getting_User_Input {
 		System.out.println("You need to type number: ");
 		int intInput = scanner.nextInt();
 		System.out.println("User has typed: " + intInput);
-}
+	}
 }
